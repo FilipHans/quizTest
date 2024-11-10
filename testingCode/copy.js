@@ -198,10 +198,6 @@ function quizPrinter (data) {
         p1.textContent = randomizer[1];
         p2.textContent = randomizer[2];
         p3.textContent = randomizer[3];
-        
-        
-
-
 }
 
 answerHolder.forEach(element => {
