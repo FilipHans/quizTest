@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="copy1.js" defer></script> -->
+    <script type="module" src="copy.js" defer></script>
+    <!-- <script src="navigation/script.js" defer></script> -->
+    <title>Quiz</title>
+</head>
+<body>
+    <form class="nameForm">
+        <input type="text" placeholder="Enter name" class="nameInput" minlength="1" maxlength="7">
+        <button type="submit" id="nameBtn">Submit</button>
+    </form>
+    <div class="container" style="display: none;">
+        <button class="categorySelector">General knowledge</button>
+        <button class="categorySelector">Geography</button>
+        <button class="categorySelector">History</button>
+        <button class="categorySelector">All categories</button>
+        <button class="leaderboard">leaderboard</button> 
+        <button class="newPlayer">New player</button>
+        <button class="saveScore">Save score</button>
+    </div>
+    <fieldset id="difficultyContainer" style="display: none;">
+        <button class="difficultyBackBtn">Back</button>
+        <legend>
+            Select a difficulty
+        </legend>
+        <form class="difficultyForm">
+        <button class="leaderboard">leaderboard</button>
+        </form>
+        </fieldset>
+    
+    <div class="rankings" style="display: none;">
+        <button class="back">Back</button>
+    </div>
+    
+    <div id="container" style="display: none;">
+    <h1 id="question"></h1>
+    <h2 id="tracker"></h2>
+    <button id="1" class="answerBox"></button>
+    <button id="2" class="answerBox"></button>
+    <button id="3" class="answerBox"></button>
+    <button id="4" class="answerBox"></button>
+    <button class="goBack">Restart</button>
+
+    
+</div>
+
+</body>
+</html>
